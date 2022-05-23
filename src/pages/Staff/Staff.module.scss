@@ -1,0 +1,234 @@
+.wrapper {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.topPage {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    margin-bottom: 20px;
+}
+
+.topPage>h1 {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.topPage>button {
+    width: 167px;
+    height: 34px;
+    background-color: #FBBC05;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 700;
+    background-image: url('../../img/Group.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 10px;
+}
+
+.wrapperNameStaff>label {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wrapperStatus>label {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wrapperNameStaff>input {
+    width: 278px;
+    height: 34px;
+    border-radius: 30px;
+    padding: 7px 67px 6px 18px;
+    background: #FFFFFF;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    position: relative;
+    background-image: url('../../img/Search.svg');
+    background-repeat: no-repeat;
+    background-position: 245px;
+}
+
+.wrapperStatus>input {
+    width: 258px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 18px;
+    padding: 1px 34px 0.2px 18px;
+    background-image: url('../../img/Icondrop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 230px;
+}
+
+.wrapperNameStaff {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.wrapperStatus {
+    display: inline-block;
+}
+
+.contentDetail {
+    height: 570px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 16px 17px 0px 17px;
+    margin-top: 20px;
+}
+
+.contentDetail>table {
+    width: 100%;
+}
+
+.lineHeader {
+    height: 46px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+
+.lineHeaderSort {
+    background-image: url('../../img/Sort.svg');
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+
+.wrapperButton {
+    display: block;
+    width: 100%;
+    height: 33px;
+    background-color: #fff;
+    border: none;
+    padding: 8px 20px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wrapperButton:hover {
+    background: rgba(14, 80, 164, 0.1);
+}
+
+.lineTd {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.lineTd>td {
+    height: 68px;
+}
+
+.lineTd>td>button {
+    display: block;
+    width: 100%;
+}
+
+.buttonUpdate {
+    background-color: #008816;
+    border-radius: 5px;
+    width: 102px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+    border: none;
+}
+
+.buttonDelete {
+    background-color: #FE4543;
+    border-radius: 5px;
+    width: 102px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+}
+
+.headerAgree {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.buttonAgree {
+    background-color: #0E50A4;
+    width: 110px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin-right: 9px;
+}
+
+.buttonrefuse {
+    background-color: #FFFFFF;
+    width: 124px;
+    height: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    color: #808080;
+}
+
+.wrapperButtonTippy {
+    margin-top: 15px;
+}
+
+.bottomPage {
+    margin-top: 43px;
+    margin-left: 30px;
+}
+
+.bottomPage>ul {
+    width: 245px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomPage>ul>li:not(.pageIcon) {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgba(9, 82, 163, 0.3);
+    border-radius: 50%;
+}
+
+.pageNoActive {
+    color: #0952A3;
+}
+
+.pageIcon {
+    display: flex;
+    align-items: center;
+}
+
+.pageActive {
+    background-color: #0952A3;
+    color: #fff;
+}

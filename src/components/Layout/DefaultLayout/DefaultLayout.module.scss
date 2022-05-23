@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    // width: var(--default-layout-width);
+    // min-height: 1000px;
+    width: 94%;
+
+}
+
+.content {
+    background-color: #E5E5E5;
+    min-height: 1000px;
+}

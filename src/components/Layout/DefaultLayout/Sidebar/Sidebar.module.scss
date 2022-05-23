@@ -1,0 +1,32 @@
+.wrapper {
+    width: 6%;
+    min-height: 1000px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menuItem {
+    margin-top: 38px;
+    text-align: center;
+}
+
+.menuItem > li {
+    margin-bottom: 17px;
+}
+
+.menuItem > li > a > svg:hover {
+    stroke: white;
+    fill: #0952A3;
+    stroke-width: 1.5px;
+}
+
+.menuItem > li > a > svg:active {
+    stroke: white;
+    fill: #0952A3;
+    stroke-width: 1.5px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 18px;
+}
